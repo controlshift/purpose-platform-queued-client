@@ -6,6 +6,8 @@ gem 'vertebrae'
 # Add dependencies to develop your gem here.
 # Include everything needed to run rake, tests, features, etc.
 group :development do
+  gem 'pry'
+  gem 'pry-byebug'
   gem "webmock", ">=0"	
   gem "rspec", ">=0"
   gem "shoulda", ">= 0"

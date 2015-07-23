@@ -7,6 +7,12 @@ module PurposePlatformQueuedClient
     def unsubscribe
       @unsubscribe ||= PurposePlatformQueuedClient::Unsubscribe.new(client: self)
     end 
+
+    private 
+
+    def extract_data_from_params(params)
+      params
+    end
   end
 end
 
