@@ -15,8 +15,7 @@ module PurposePlatformQueuedClient
     def default_params
       {
         guard: '',
-        hp_enabled: '1',
-        hp_disabled: '0'
+        hp_enabled: 'true'
       }
     end
 
