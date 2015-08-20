@@ -1,4 +1,5 @@
 # purpose-platform-queued-client
+[![Build Status](https://travis-ci.org/controlshift/purpose-platform-queued-client.svg)](https://travis-ci.org/controlshift/purpose-platform-queued-client)
 
 Ruby interface for the queued API service fronting the Purpose Platform which Fight for the Future uses.
 
