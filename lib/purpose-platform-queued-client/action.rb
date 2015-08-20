@@ -20,7 +20,7 @@ module PurposePlatformQueuedClient
     end
 
     def base_path
-    	'action'
+      'action'
     end
 
     def create(params)
